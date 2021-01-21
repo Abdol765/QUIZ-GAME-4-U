@@ -1,0 +1,84 @@
+<RelativeLayout
+    android:id="@+id/activity_main"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="17dp"
+    android:paddingLeft="17dp"
+    android:paddingTop="17dp"
+    android:paddingRight="17dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="394dp"
+        android:layout_height="253dp"
+        android:layout_below="@+id/score"
+        android:layout_above="@+id/answer4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="321dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="372dp"
+        android:layout_height="77dp"
+        android:layout_above="@+id/answer2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="319dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="372dp"
+        android:layout_height="77dp"
+        android:layout_above="@+id/answer3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="213dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="372dp"
+        android:layout_height="77dp"
+        android:layout_above="@+id/answer4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
+        android:text="Button"
+        tools:ignore="Button" />
+
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="372dp"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="Button" />
+
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="TextView" />
+
+</RelativeLayout>
+

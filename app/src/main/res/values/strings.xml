@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Quiz Game 4 U</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+
+
+</resources>
